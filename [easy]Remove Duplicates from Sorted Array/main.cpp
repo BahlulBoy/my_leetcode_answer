@@ -26,7 +26,7 @@ public:
                 if (itemErased > 0) {
                     nums.erase(nums.begin() + anchor + 1, nums.begin() + i);
                     itemErased = 0;
-                    i = 0;
+                    i = anchor + 1;
                 }
                 anchor = i;
             }
@@ -35,8 +35,9 @@ public:
     }
 };
 
+
 int main() {
-    vector<int> tramp = {0};
+    vector<int> tramp = {0, 0, 0, 0};
     Solution solution = Solution();
     int result = solution.removeDuplicates(tramp);
     cout << "[ " << result << " ]" << endl;
@@ -44,7 +45,7 @@ int main() {
     for (int num : tramp)
     {
         cout << num << " ";
-    } 
+    }
     cout << "]" ;
     cout << endl;
     return 0;
