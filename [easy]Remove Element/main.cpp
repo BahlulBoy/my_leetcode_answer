@@ -57,5 +57,6 @@ int main()
         cout << j << ", ";
     }
     cout << " ]" << endl;
-    cout << result;
+    cout << result << endl;
+    cout << 3 / 2 << endl;
 }

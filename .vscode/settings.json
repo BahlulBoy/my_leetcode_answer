@@ -11,7 +11,9 @@
     "algorithm": "cpp",
     "xlocale": "cpp",
     "utility": "cpp",
-    "ostream": "cpp"
+    "ostream": "cpp",
+    "xmemory": "cpp",
+    "iosfwd": "cpp"
   },
   "C_Cpp.default.compilerPath": "E:\\app\\Clang\\LLVM\\bin\\clang++.exe"
 }
